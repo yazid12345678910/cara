@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Modelo</title>
+</head>
+<body>
+    <h1>Registrar Modelo</h1>
+    <form action="procesar_modelo.php" method="POST">
+        <label for="id_modelo">ID del Modelo:</label>
+        <input type="text" id="id_modelo" name="id_modelo" required><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <input type="submit" value="Guardar Modelo">
+    </form>
+
+    <br>
+    <button onclick="location.href='consultas.html'">Consultas</button>
+</body>
+</html>
